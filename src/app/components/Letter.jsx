@@ -11,18 +11,18 @@ export default function Letter() {
     const [currentText, setCurrentText] = useState("")
     const [showCursor, setShowCursor] = useState(true)
 
-    const letterText = `My Dearest Madam Jii,
+    const letterText = `My Dearest Love,
 
-On this very special day, I want you to know how incredibly grateful I am to have you in my life. Your birthday isn't just a celebration of another year - it's a celebration of all the joy, laughter, and beautiful memories you bring to this world.
+Eid Mubarak, meri jaan! On this beautiful Eid, I just want to thank Allah for bringing you into my life. You are my peace, my happiness, and my biggest blessing.
 
-You have this amazing ability to light up any room you enter, to make people smile even on their darkest days, and to spread kindness wherever you go. Your heart is pure gold, and your spirit is absolutely infectious.
+Your smile lights up my world, your voice calms my heart, and your love gives my life meaning. Every moment with you feels like a gift I never want to lose.
 
-Thank you for being the wonderful, amazing, absolutely fantastic person that you are. The world is so much brighter because you're in it.
+Today, I pray that your life is always filled with barakah, endless joy, and all the love your heart can hold. I promise to keep cherishing you, respecting you, and loving you more with every passing day.
 
-Happy Birthday, beautiful soul! 🎂✨
+Eid Mubarak, my beautiful wife/gf. 🌙✨
 
-With all my love and warmest wishes,
-Forever Yours 💕`
+Forever yours,
+With all my love 💕`
 
     useEffect(() => {
         if (showText) {
@@ -77,9 +77,9 @@ Forever Yours 💕`
                     transition={{ delay: 0.3 }}
                 >
                     <h1 className="text-4xl md:text-6xl py-1 md:py-2 font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-purple-400 to-indigo-400 mb-4">
-                        A Special Letter
+                        A Letter For You
                     </h1>
-                    <p className="text-lg text-purple-300">Just for you, on your special day 💌</p>
+                    <p className="text-lg text-purple-300">Just for you on this blessed Eid 💌</p>
                 </motion.div>
 
                 <motion.div

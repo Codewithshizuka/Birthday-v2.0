@@ -1,6 +1,6 @@
-# 🎂 Birthday Surprise V2 – A Modern & Emotional Birthday Gift
+# 🌙 Eid Mubarak Surprise – A Romantic Website for Your Love
 
-Celebrate someone’s birthday in a unique and heart-touching way with this new version of the "Birthday Surprise" website. This version includes beautiful animations, confetti, a photo slideshow, and a special countdown – all crafted to create an unforgettable moment. 💖
+Celebrate Eid with your wife or girlfriend in a unique and heart-touching way. This website includes beautiful animations, confetti, a memory slideshow, a countdown to Eid, and a heartfelt love letter to make her feel truly special. 💖
 
 > ⚠️ This is a **free version**, so some features like background music, animations and message cards are not included. Premium version includes full photo gallery, music, animations and personal message cards. If you want premium code then DM me on Instagram.
 
@@ -11,7 +11,7 @@ Celebrate someone’s birthday in a unique and heart-touching way with this new 
 - ⚛️ **Next.js** – React Framework for building fast UI
 - 🎨 **Tailwind CSS** – For modern and responsive styling
 - 🎞️ **Framer Motion** – Smooth entrance and fade animations
-- 🎊 **Canvas Confetti** – Birthday celebration confetti effect
+- 🎊 **Canvas Confetti** – Eid celebration confetti effect
 - 🖼️ **Swiper.js** – For smooth image slideshow
 
 ---
@@ -22,10 +22,10 @@ To run this project locally, follow these steps:
 
 ```bash
 # Clone the repository
-git clone https://github.com/Anuj579/birthday-site-v2.git
+git clone <your-repo-url>
 
 # Navigate into the folder
-cd birthday-site-v2
+cd Birthday-v2.0
 
 # Install dependencies
 npm install
