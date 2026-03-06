@@ -75,7 +75,7 @@ export default function Celebration({ onNext }) {
                         filter: "drop-shadow(0 0 30px rgba(255,105,180,0.5))",
                     }}
                 >
-                    Time to Celebrate!
+                    Eid Mubarak, My Love!
                 </motion.h1>
 
                 <motion.p
@@ -84,7 +84,7 @@ export default function Celebration({ onNext }) {
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.8 }}
                 >
-                    The countdown is over... Let's celebrate! 🎉
+                    The moon has arrived... let’s celebrate together! 🌙✨
                 </motion.p>
             </motion.div>
 
@@ -104,7 +104,7 @@ export default function Celebration({ onNext }) {
                 >
                     <motion.div className="flex items-center space-x-2" whileTap={{ scale: 0.95 }}>
                         <Gift className="w-5 h-5" />
-                        <span className="font-semibold">Let's Celebrate!</span>
+                        <span className="font-semibold">Begin Our Eid Surprise</span>
                         <Sparkles className="w-5 h-5" />
                     </motion.div>
                 </button>
@@ -116,7 +116,7 @@ export default function Celebration({ onNext }) {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 1.5 }}
             >
-                <p className="text-purple-300 text-base">Click to start the magic! ✨</p>
+                <p className="text-purple-300 text-base">Tap to begin your Eid surprise ✨</p>
             </motion.div>
         </motion.div>
     )

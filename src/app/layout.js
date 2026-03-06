@@ -1,8 +1,8 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Happy Birthday!",
-  description: "An animated birthday surprise filled with emotions, words from the heart, and a letter that types itself — just for you."
+  title: "Eid Mubarak, My Love!",
+  description: "An animated Eid Mubarak surprise with loving messages, memories, and a heartfelt letter for your special partner."
 };
 
 export default function RootLayout({ children }) {
