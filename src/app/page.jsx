@@ -14,7 +14,18 @@ export default function BirthdayApp() {
   const [currentScreen, setCurrentScreen] = useState(0)
   const [isLoading, setIsLoading] = useState(true)
 
-  const eidDate = new Date("2026-03-20T00:00:00")
+  const getUpcomingEidDate = () => {
+    const currentYear = new Date().getFullYear()
+    const eidThisYear = new Date(`${currentYear}-03-20T00:00:00`)
+
+    if (new Date().getTime() <= eidThisYear.getTime()) {
+      return eidThisYear
+    }
+
+    return new Date(`${currentYear + 1}-03-20T00:00:00`)
+  }
+
+  const eidDate = getUpcomingEidDate()
   const [isEidStarted, setIsEidStarted] = useState(new Date().getTime() >= eidDate.getTime())
 
   useEffect(() => {
